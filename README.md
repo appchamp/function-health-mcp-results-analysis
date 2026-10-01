@@ -10,8 +10,8 @@ lives in a sibling `reports/` folder, kept out of this repository.
 
 ```
 <parent>/
-  lab-analysis/     this repo: analyze.py, md2html.py, render.sh, README.md
-  reports/          personal: findings.json, merged-results.json, dated reports, HISTORY.md
+  function-health-mcp-results-analysis/   this repo: analyze.py, md2html.py, render.sh, README.md
+  reports/                                personal: findings.json, merged-results.json, dated reports, HISTORY.md
 ```
 
 ---
@@ -128,7 +128,7 @@ All in `~/.function-health/exports/<round>/`:
 
 ## Prompt to reuse
 
-> Read `lab-analysis/README.md`, `reports/HISTORY.md` and the latest report in `reports/`,
+> Read `function-health-mcp-results-analysis/README.md`, `reports/HISTORY.md` and the latest report in `reports/`,
 > then sync and run `analyze.py`. Using `findings.json`, `merged-results.json` and the
 > export's `notes.json`, write a new analysis (metadata first) covering all issues, what
 > changed since the last report, and trends across rounds. Save it in `reports/` as
